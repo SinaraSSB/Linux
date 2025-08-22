@@ -1,0 +1,45 @@
+dicas Vim Editor 
+
+Aqui estão alguns comandos básicos do Vim que podem ser úteis para você:
+
+Modo de Inserção:
+i: Entra no modo de inserção antes do cursor.
+a: Entra no modo de inserção após o cursor.
+o: Abre uma nova linha abaixo do cursor e entra no modo de inserção.
+
+Navegação:
+h: Move o cursor para a esquerda.
+j: Move o cursor para baixo.
+k: Move o cursor para cima.
+l: Move o cursor para a direita.
+w: Move o cursor para o início da próxima palavra.
+b: Move o cursor para o início da palavra anterior.
+0: Move o cursor para o início da linha.
+$: Move o cursor para o final da linha.
+
+Edição:
+
+x: Exclui o caractere sob o cursor.
+dd: Exclui a linha atual.
+yy: Copia a linha atual.
+p: Cola o texto copiado ou cortado após o cursor.
+u: Desfaz a última ação.
+Ctrl + r: Refaz a última ação desfeita.
+
+Busca e Substituição:
+/texto: Busca por "texto" no arquivo.
+n: Move para a próxima ocorrência da busca.
+N: Move para a ocorrência anterior da busca.
+:s/antigo/novo/g: Substitui todas as ocorrências de "antigo" por "novo" na linha atual.
+:%s/antigo/novo/g: Substitui todas as ocorrências de "antigo" por "novo" em todo o arquivo.
+
+Salvar e Sair:
+:w: Salva o arquivo.
+:q: Sai do Vim.
+:wq: Salva e sai do Vim.
+:q!: Sai do Vim sem salvar as alterações.
+
+Para sair e salvar um arquivo no editor Vim do Linux, siga estes passos:
+Pressione Esc para garantir que você está no modo de comando.
+Digite :wq e pressione Enter. Isso salvará (w de "write") e sairá (q de "quit") do arquivo.
+Se você quiser apenas sair sem salvar as alterações, use :q! e pressione Enter.
