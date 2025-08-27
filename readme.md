@@ -128,6 +128,23 @@ ___
 * git clone: Cria uma cópia local de um repositório Git remoto. Exemplo: git clone https://github.com/alura-cursos/adopet-frontend-cypress clona o repositório especificado.
 
 
+* mkdir (Make Directory): Cria novos diretórios.
+
+* touch: Cria um arquivo vazio ou atualiza a data de modificação de um arquivo existente.
+
+* nano: Editor de texto no terminal, usado para criar e editar arquivos.
+
+* mv (Move): Move ou renomeia arquivos e diretórios.
+
+* cp (Copy): Copia arquivos e diretórios.
+
+* clear: Limpa a tela do terminal, removendo o histórico visível.
+
+* ls -l (List Long): Lista arquivos e diretórios com detalhes, incluindo permissões e proprietários.
+
+* ls -al (List All Long): Combina as opções -a e -l, listando todos os arquivos com detalhes.
+
+
 
 ### 🌐 Rede
 
