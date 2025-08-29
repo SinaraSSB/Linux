@@ -132,7 +132,7 @@ ___
 
 * touch: Cria um arquivo vazio ou atualiza a data de modificação de um arquivo existente.
 
-* nano: Editor de texto no terminal, usado para criar e editar arquivos.
+* nano ou vim: Editor de texto no terminal, usado para criar e editar arquivos.
 
 * mv (Move): Move ou renomeia arquivos e diretórios.
 
@@ -144,7 +144,11 @@ ___
 
 * ls -al (List All Long): Combina as opções -a e -l, listando todos os arquivos com detalhes.
 
+* rm               - remove files or directories
+* rmdir            - remove empty directories
+* rm --help 
 
+# restante omitido…
 
 ### 🌐 Rede
 
@@ -203,3 +207,33 @@ Vamos descrever sinteticamente os principais diretórios que comumente encontram
 /var → armazenamento de arquivos variáveis, como logs, filas de email e arquivos de spool.
 
 Cada diretório presente na raiz do sistema possui um propósito bem definido, atuando para manter o sistema operacional de modo eficiente. A compreensão detalhada de seu funcionamento e configuração está fora do escopo do nosso curso, mas, caso queira entender mais sobre o tema, recomendamos algumas referências ao final do curso.
+
+
+## Sabeer qual versão linux
+
+
+1. Para distribuições baseadas em Debian/Ubuntu: Esse comando mostra informações como o nome da distribuição, versão e codinome.
+lsb_release -a
+
+2. Para qualquer distribuição:
+cat /etc/os-release
+Esse comando exibe detalhes sobre o sistema operacional, como nome, versão e ID.
+
+3. Para saber a versão do kernel:
+uname -r
+
+--- 
+## Kernel
+
+O kernel é o núcleo do sistema operacional Linux — ele é responsável por fazer a ponte entre o hardware (como processador, memória, disco rígido) e o software (os programas que você usa).
+
+### Em resumo, o kernel:
+* Gerencia recursos do sistema, como memória, processos e dispositivos.
+* Controla a comunicação entre o hardware e o software.
+* Garante segurança e estabilidade do sistema.
+
+> Quando você roda o comando uname -r, 
+> 
+> ele mostra a versão do kernel que está em uso. Por exemplo:
+> 
+> `5.15.0-151-generic`
